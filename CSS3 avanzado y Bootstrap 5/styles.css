@@ -1,0 +1,69 @@
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3 {
+  color: #ffcc00;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.navbar-brand {
+  color: #ff0000 !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #ffcc00 !important;
+}
+
+.btn-primary {
+  background-color: #cc0000;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #ff0000;
+  transform: scale(1.05);
+}
+
+.card {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+}
+
+form input,
+form textarea {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #ffcc00;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #ff0000;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.6);
+}
+
+footer a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
